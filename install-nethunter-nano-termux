@@ -108,7 +108,6 @@ function check_dependencies() {
 
 function get_url() {
     ROOTFS_URL="${BASE_URL}/${IMAGE_NAME}"
-    SHA_URL="${BASE_URL}/${SHA_NAME}"
 }
 
 function get_rootfs() {
